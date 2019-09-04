@@ -1,0 +1,70 @@
+//colors
+$w: #ffff;
+$b: #111111;
+$g: #969696;
+$lg:#f8f8f8;
+$o:#ff8800;
+$db:#6175b4;
+$dw:#dddddd;
+//font colors
+$fw:#a8a8a8;
+$flg:#b9b7b5;
+$fb:#7181b4;
+$fg:#7181b4;
+$flb:#414141;
+$fdb:#717171;
+$fk:#757575;
+//font attach
+
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "DIN";
+    src: url("../fonts/DIN-Regular.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN-Condensed-Bold.ttf") format("truetype");
+}
+
+
+//font family
+$Dl: 'DIN-Light';
+$Dm: 'DIN-Medium';
+$Dr: 'DIN-Regular';
+$Db: 'DIN Bold';
+$Dcb:'DIN-Condensed-Bold';
+
+// media query
+
+$resize: "screen and (max-width: 377px)";
+$tablet: "screen and (max-width: 1024px) and (min-width: 768px)";
+$mobile: "screen and (max-width: 640px)";
+$iphoneplus: "screen and (min-width: 412px) and (max-width: 736px) and (max-device-pixel-ratio: 3)";
+$smallMobile: "screen and (max-width: 320px)";
+$otherMobile: "screen and (max-width: 360px)";
+$largescreen: "screen and (min-width: 1920px)";
+$hdmonitor: "screen and (min-width: 1600px)";
+
+$mq5b: "screen and (max-width: 565px)";
+$mq7b: "screen and (max-width: 767px)";
+$mq9b: "screen and (max-width: 991px)";
+$mq12b: "screen and (max-width: 1199px)";
+
+$mq5a: "screen and (min-width: 566px)";
+$mq7a: "screen and (min-width: 768px)";
+$mq9a: "screen and (min-width: 992px)";
+$mq12a: "screen and (min-width: 1200px)";
+
